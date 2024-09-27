@@ -39,7 +39,7 @@ function App() {
             <iframe
               title="Qlik Sense Dashboard"
               // src="http://localhost:4848/single/?appid=C%3A%5CUsers%5CAdmin%5CDocuments%5CQlik%5CSense%5CApps%5CNew%20Hospital%20Dashboard.qvf&sheet=yJbdca&theme=horizon&opt=ctxmenu"
-              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=ab6b9a4e-6156-4369-a900-b5f57af8310f&sheet=yJbdca&theme=horizon&opt=ctxmenu"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=yJbdca&theme=horizon&opt=ctxmenu"
               style={{ border: "none", width: "100%", height: "100%" }}
             />
           }
@@ -49,7 +49,7 @@ function App() {
             <iframe
               title="Qlik Sense Dashboard"
               // src="http://localhost:4848/single/?appid=C%3A%5CUsers%5CAdmin%5CDocuments%5CQlik%5CSense%5CApps%5CNew%20Hospital%20Dashboard.qvf&sheet=mAENry&theme=horizon&opt=ctxmenu"
-              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=ab6b9a4e-6156-4369-a900-b5f57af8310f&sheet=mAENry&theme=horizon&opt=ctxmenu"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=mAENry&theme=horizon&opt=ctxmenu"
               style={{ border: "none", width: "100%", height: "100%" }}
             />
           }
