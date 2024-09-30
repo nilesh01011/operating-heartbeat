@@ -13,7 +13,7 @@ function App() {
 
       <Sidebar />
 
-      <div className='w-full h-full ml-[160px] flex flex-col'>
+      <div className='w-full h-full ml-[200px] flex flex-col'>
         {/* headers */}
         <Header />
 
@@ -26,7 +26,7 @@ function App() {
         <div className="w-full flex items-center mb-[10px] shadow-md px-[8px]">
           {
             menuItems.map((ele, i) => (
-              <button key={i} className={`p-[8px_16px] text-center border-b border-b-1 ${active === i ? "font-[500] border-[#061E4A]" : "border-[#d5e0f7] font-[400]"}`} onClick={() => setActive(i)}>{ele.name}</button>
+              <button key={i} className={`p-[8px_16px] text-center border-b border-b-1 ${active === i ? "font-[500] border-[#061E4A] text-black" : "border-[#d5e0f7] font-[400] text-[#4D4E4F]"}`} onClick={() => setActive(i)}>{ele.name}</button>
             ))
           }
         </div>
