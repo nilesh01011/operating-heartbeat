@@ -12,20 +12,22 @@
 @font-face {
   font-family: 'Lato';
   font-style: normal;
+  font-weight: 500;
+  src: local('Lato'), url('../public/fonts/Lato-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: bold;
   font-weight: 600;
   src: local('Lato'), url('../public/fonts/Lato-Bold.ttf') format('ttf');
 }
 
 @font-face {
   font-family: 'Lato';
-  font-style: bold;
+  font-style: extra-bold;
   font-weight: 900;
   src: local('Lato'), url('../public/fonts/Lato-Black.ttf') format('ttf');
-}
-
-body {
-  font-weight: 400;
-  font-family: 'Lato', sans-serif;
 }
 
 .sub-menu li {
@@ -35,4 +37,8 @@ body {
 
 #qv-stage-container #single-object #grid-wrap #grid #content {
   background-color: red !important;
+}
+
+body {
+  background-color: #d5e0f7;
 }
