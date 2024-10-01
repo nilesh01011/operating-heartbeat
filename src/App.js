@@ -48,8 +48,43 @@ function App() {
             active === 1 &&
             <iframe
               title="Qlik Sense Dashboard"
-              // src="http://localhost:4848/single/?appid=C%3A%5CUsers%5CAdmin%5CDocuments%5CQlik%5CSense%5CApps%5CNew%20Hospital%20Dashboard.qvf&sheet=mAENry&theme=horizon&opt=ctxmenu"
               src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=32cf5973-5714-40b4-baba-e37e16db90ad&theme=horizon&opt=ctxmenu"
+              style={{ border: "none", width: "100%", height: "100%" }}
+            />
+          }
+
+          {
+            active === 2 &&
+            <iframe
+              title="Qlik Sense Dashboard"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=kJwdhq&theme=horizon&opt=ctxmenu"
+              style={{ border: "none", width: "100%", height: "100%" }}
+            />
+          }
+
+          {
+            active === 3 &&
+            <iframe
+              title="Qlik Sense Dashboard"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=79fbee91-b639-4382-9471-be87ace75e07&theme=horizon&opt=ctxmenu"
+              style={{ border: "none", width: "100%", height: "100%" }}
+            />
+          }
+
+          {
+            active === 4 &&
+            <iframe
+              title="Qlik Sense Dashboard"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=3e94f6a4-12d6-4a13-a58c-189473cefcf4&theme=horizon&opt=ctxmenu"
+              style={{ border: "none", width: "100%", height: "100%" }}
+            />
+          }
+
+          {
+            active === 5 &&
+            <iframe
+              title="Qlik Sense Dashboard"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=31fce96f-1d5a-4e1e-8300-cddf759a34da&theme=horizon&opt=ctxmenu"
               style={{ border: "none", width: "100%", height: "100%" }}
             />
           }
