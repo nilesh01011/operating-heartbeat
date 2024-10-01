@@ -49,7 +49,7 @@ function App() {
             <iframe
               title="Qlik Sense Dashboard"
               // src="http://localhost:4848/single/?appid=C%3A%5CUsers%5CAdmin%5CDocuments%5CQlik%5CSense%5CApps%5CNew%20Hospital%20Dashboard.qvf&sheet=mAENry&theme=horizon&opt=ctxmenu"
-              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=mAENry&theme=horizon&opt=ctxmenu"
+              src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=32cf5973-5714-40b4-baba-e37e16db90ad&theme=horizon&opt=ctxmenu"
               style={{ border: "none", width: "100%", height: "100%" }}
             />
           }
