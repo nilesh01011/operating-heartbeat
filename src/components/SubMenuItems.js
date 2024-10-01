@@ -11,7 +11,7 @@ function SubMenuItems({ ele }) {
     };
 
     return (
-        <span className={`text-[16px] py-[6px] px-[12px] font-[400] ${pathname === ele.link && "bg-[#D5E0F7] font-[600] text-[#061E4A]"} capitalize`} onClick={() => handleRoutes(ele.link)} >{ele.name}</span>
+        <span className={`text-[16px] py-[6px] px-[12px] font-[400] ${pathname === ele.link && "bg-[#D5E0F7] font-[700] text-[#061E4A]"} capitalize`} onClick={() => handleRoutes(ele.link)} >{ele.name}</span>
     )
 }
 

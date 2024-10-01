@@ -21,7 +21,7 @@ function SalesReports() {
                 >
                     {
                         menuItems.map((ele, i) => (
-                            <button key={i} className={`p-[8px_16px] text-center border-b border-b-1 ${active === i ? "font-[500] border-[#061E4A] text-black" : "border-[#d5e0f7] font-[400] text-[#4D4E4F]"}`} onClick={() => setActive(i)}>{ele.name}</button>
+                            <button key={i} className={`p-[8px_16px] text-center border-b-2 font-[400] ${active === i ? " border-[#061E4A] text-black" : "border-[#d5e0f7] text-[#4D4E4F]"}`} onClick={() => setActive(i)}>{ele.name}</button>
                         ))
                     }
                 </div>
