@@ -42,7 +42,7 @@ function SalesReports() {
                         active === 1 &&
                         <iframe
                             title="Qlik Sense Dashboard"
-                            src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=32cf5973-5714-40b4-baba-e37e16db90ad&theme=horizon&opt=ctxmenu"
+                            src="https://mde-analytics.sg.qlikcloud.com/single/?appid=d481aad3-7752-49f1-933f-ebbb3b5375fc&sheet=9ba85cbe-c84e-485c-97dd-4b6dd049a729&theme=horizon&opt=ctxmenu"
                             style={{ border: "none", width: "100%", height: "100%" }}
                         />
                     }
